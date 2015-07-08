@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 2.8 FATAL_ERROR)
+# Tested on cmake 2.8 on Mac OS X
+
+SET(projName longestPath)
+#Project Name: longestPath
+
+#find_package () 
+#No special packages used.
+
+#link_directories()
+#No link directories required.
+
+add_executable (longestPath longestPath.cpp subFunctions.cpp subFunctions.h)
+
