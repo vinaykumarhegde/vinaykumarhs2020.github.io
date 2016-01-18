@@ -35,7 +35,7 @@
 						<a href="#research" class="icon fa-flask"><span>Research</span></a>
 						<a href="#projects" class="icon fa-github"><span>Projects</span></a>
 						<!--<a href="#work" class="icon fa-folder"><span>Work</span></a>-->
-						<a href="#contact" class="icon fa-envelope"><span>Contact</span></a>
+						<!-- <a href="#contact" class="icon fa-envelope"><span>Contact</span></a> -->
 						<!-- 
 						<a href="#" class="icon fa-twitter"><span>Twitter</span></a>
 					-->
@@ -62,10 +62,13 @@
 									<h2>About Me</h2>
 								</header>
 								<p align="justify">
-									Hi, I am Vinaykumar (Vinay). I am currently pursuing masters in Electrical Engineering at University of Southern California, Los Angeles.
+									Hello, World! I am Vinaykumar, graduate student in Electrical Engineering Department at University of Southern California, Los Angeles. 
 								</p>
 								<p align="justify">
-									I am interested in Robotics, Embedded System and Machine Learning.
+									Robotics and Machine Learning are my technical interests. I am interested in using computer vision and SLAM for indoor mobile robot navigation. I am investigating different techniques on DFRobot HCR mobile robot base.
+								</p>
+								<p>
+									I like to spend my free time on the mountains. I like hiking and cycling.
 								</p>
 								<a href="docs/resume.pdf" class="icon fa-file-pdf-o"><span> My Latest Resume</span></a>
 
@@ -82,7 +85,27 @@
     									<th colspan="2">Telephone</th>
   									</tr>-->
   									<tr>
-  										<td colspan="2"><u>Spring 2015</u></td>
+  										<td colspan="2"><u>Courses at USC</u></td>
+  									</tr>
+    								<tr>
+    									<td>CSCI545</td>
+    									<td>Robotics</td>
+    								</tr>
+  									<tr>
+  										<td>CSCI574</td>
+  										<td>Computer Vision</td>
+  									</tr>
+    								<tr>
+    									<td>CSCI599</td>
+    									<td>Coordinated Mobile Robotics (Audit)</td>
+    								</tr>
+    								<tr>
+    									<td>CSCI590</td>
+    									<td>Directed Research on Mobile Robot Navigation</td>
+    								</tr>
+  									<tr>
+  										<td>EE660</td>
+  										<td>Machine Learning from Signals: Foundations and Methods</td>
   									</tr>
   									<tr>
     									<td>EE559</td>
@@ -93,27 +116,16 @@
     									<td>Linear Systems Theory</td>
     								</tr>
     								<tr>
-    									<td>CSCI545</td>
-    									<td>Robotics</td>
-    								</tr>
-    								<tr>
-    									<td>CSCI599</td>
-    									<td>Coordinated Mobile Robotics (Audit)</td>
-    								</tr>
-  									<tr>
-  										<td colspan="2"><u>Fall 2014</u></td>
-  									</tr>
-  									<tr>
-    									<td>EE590</td>
-    									<td>Directed Research</td>
-    								</tr>
-    								<tr>
     									<td>EE503</td>
     									<td>Probability for Electrical and Computer Engineers</td>
     								</tr>
     								<tr>
     									<td>EE441</td>
     									<td>Applied Linear Algebra for Engineers</td>
+    								</tr>
+  									<tr>
+    									<td>EE590</td>
+    									<td>Directed Research on Control of Nano Robots</td>
     								</tr>
     								<tr>
   										<td colspan="2"><u>Online (MOOC)</u></td>
@@ -122,6 +134,20 @@
     									<td>Coursera</td>
     									<td>Machine Learning</td>
     								</tr>
+    								<tr>
+    									<td>Coursera</td>
+    									<td>Design and Analysis of Algorithms 1</td>
+    								</tr>
+    								<tr>
+    									<td>EdX</td>
+    									<td>Scalable Machine Learning</td>
+    								</tr>
+    								<tr>
+    									<td>EdX</td>
+    									<td>Autonomous Mobile Robots (Current)</td>
+    								</tr>
+    								<tr>
+    									<td>
 								</table>
 
 								<p align="justify">
@@ -136,7 +162,10 @@
 								<p align="justify">
 								</p>
 								<ol>
-									<li>1) Directed Research on Control of nano robots. (Research Advisor: <a href="http://ee.usc.edu/faculty_staff/faculty_directory/jonckheere.htm">Prof. Edmond Jonckheere</a>) <a href="docs/dr_fall2014.pdf" class="icon fa-file-pdf-o"><span></span></a>
+									<li><b>1) Directed Research on Mobile Robot Navigation </b><br>
+										I am currently working under <a href="http://ilab.usc.edu/itti/">Prof. Laurent Itti</a> at <a href="http://ilab.usc.edu/research/">iLab</a>, as a Graduate Directed Researcher. My  goal is to use computer vision and SLAM techniques for indoor mobile robot navigation. </br><br> 	
+									<li><b>3) Directed Research on Control of nano robots. (Research Advisor: <a href="http://ee.usc.edu/faculty_staff/faculty_directory/jonckheere.htm">Prof. Edmond Jonckheere</a>) </b><br>
+										Complete report of my directed research: <a href="docs/dr_fall2014.pdf" class="icon fa-file-pdf-o"><span></span></a>
 									</li>
 								</ol>
 							</article>
@@ -146,7 +175,26 @@
 								<header>
 									<h2>Projects</h2>
 								</header>
-								<a href="#me" class="icon fa-file-code-o"><span> Page under construction...</span></a>
+								<ol>
+									<li> <b>CIFAR-10: Object Detection In Images</b> [<a href="https://bitbucket.org/vinaykumarhs2020/ee660_project">code</a>] <br>
+									Compared object detection techniques on CIFAR-10 dataset (SVM, Adaboost and Neural Networks). Achieved 78% accuracy using CNN with Keras and Theano. <br>
+									Keywords: Keras, Theano, IPython Parallel, Starcluster, AWS, HOG, BOF <br><br>
+
+									<li> <b>Heterogeneous Coordinated Robots For Navigation</b><br>
+									Navigating ground robot (Turtlebot) using live feed data (image) from AR Drone quadcopter. Implemented the idea on ROS and Gazebo. <br><br>
+
+									<li> <b>Human Activity Recognition From Inertial Sensor Data</b><br>
+									Using pattern recognition and machine learning techniques to predict the human activities like walking, standing, sitting and laying. Used mobile phone inertial sensors dataset from UCI repository. <br>
+									Tools used: Python, Scikit-learn, numpy <br><br>
+
+									<li> <b>Balancing Nao Robot In One Leg</b> [<a href="https://www.youtube.com/watch?v=pyT6oE6yxHQ">video</a>]<br>
+									Using Inverse kinematics, minimum jerk/cubic spline controls, and COG Jacobian techniques to balance the Nao Robot in single leg. Implemented the idea using SL simulator. <br><br>
+
+									<li> <b>Localization experiments with iRobot Create</b><br>
+										Worked on ROS and Localization experiments with iRobot Create - 1 mobile robot platform. Added support for Razor 9 DOF IMU and tested localization in indoor environment. 
+								</ol>
+
+
 							</article>
 
 						<!-- Work 
@@ -208,25 +256,21 @@
 							</article>
 							--> 
 						<!-- Projects --> 
+						<!-- Contacts (disabled)
 							<article id="contact" class="panel">
 								<header>
 									<h2>Contact Me</h2>
 								</header>
 								<p align="justify">
 									Feel free to contact me at:
-									vinaykuh@usc.edu
-									 or me@vnay.in
+									 me@vnay.in
 								</p>
 								<p>
-									<u>Postal Address:</u><br>
-									720 W 27th St, Apt #224<br>
-									Los Angeles - 90007<br>
-									California<br>
 								</p>
 
 							</article>
 
-
+						-->
 						<!-- Contact - old 
 							<article id="contact-old" class="panel">
 								<header>
@@ -266,7 +310,7 @@
 				<!-- Footer -->
 					<div id="footer">
 						<ul class="copyright">
-							<li>&copy; Vinaykumar Hegde (vnay.in)</li>
+							<li>&copy; Vinaykumar Hegde</li>
 							<li><a href="https://www.facebook.com/vinaykumarhs" class="icon fa-facebook"><span></span></a></li>
 							<li><a href="https://twitter.com/hsvinaykumar" class="icon fa-twitter"><span></span></a></li>
 							<li><a href="http://www.linkedin.com/in/vinaykumarhs/" class="icon fa-linkedin"><span></span></a></li>
